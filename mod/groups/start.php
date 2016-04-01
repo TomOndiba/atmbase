@@ -39,6 +39,7 @@ function groups_init() {
 	elgg_register_action("groups/edit", "$action_base/edit.php");
 	elgg_register_action("groups/delete", "$action_base/delete.php");
 	elgg_register_action("groups/featured", "$action_base/featured.php", 'admin');
+    elgg_register_action("groups/quickjoin", "$action_base/quickjoin.php");
 
 	$action_base .= '/membership';
 	elgg_register_action("groups/invite", "$action_base/invite.php");
